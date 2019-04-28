@@ -1,0 +1,817 @@
+@import url(//db.onlinewebfonts.com/c/41b76b9136355dafbe618d35a4f225b6?family=TrumpGothicWestW01-Bold);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.mynav{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 16px !important;
+}
+.btnins{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-width: 2px !important;
+    color: #fff;
+    font-size: 15px !important;
+    background-color:#000 ;
+    margin-right: 15px;
+    border-radius: 18px;
+    text-decoration: none !important;
+    
+}
+
+.btnins:hover{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    
+
+}
+.social-icons {
+	list-style: none;
+	width: 50px;
+  position: fixed;
+  top:30%;
+  z-index: 1000;
+}
+.social-icons li {
+	float:none;
+  display: block
+}
+.social-icons li a {
+    display:inline-block;
+    width:40px;
+    height:40px;
+    float:left;
+    overflow:hidden
+}
+.social-icons li a i {
+    padding:13px
+}
+.facebook {
+    color:#3d5b99
+}
+.facebook:hover {
+    color:#fff;
+  	background-color: #3d5b99
+}
+.twitter {
+    color:#00aced
+}
+.twitter:hover {
+    color:#fff;
+  	background-color: #00aced
+}
+.youtube {
+    color:#e64a41
+}
+.youtube:hover {
+    color:#fff;
+	  background-color: #e64a41
+}
+.linkedin {
+    color:#0073a4
+}
+.linkedin:hover {
+    color:#fff;
+  	background-color: #0073a4
+}
+.google-plus {
+    color:#e25714
+}
+.google-plus:hover {
+    color:#fff;
+  	background-color: #e25714
+}
+.facebook,
+.twitter,
+.youtube,
+.linkedin,
+.google-plus {
+    -o-transition:.5s ease;
+  	-ms-transition:.5s ease;
+  	-moz-transition:.5s ease;
+  	-webkit-transition:.5s ease;
+  	transition: .5s ease
+}
+.facebook:hover,
+.twitter:hover,
+.youtube:hover,
+.linkedin:hover,
+.google-plus:hover {
+    width:50px
+}
+.divnoneaudio {
+    display: none;
+}
+
+.ifram_main {
+    /*width: 200vh;
+    height: 315vh;
+    overflow: hidden;
+    margin-top: 4rem;*/
+    width: 100%;
+    height: 315vh;
+    overflow: hidden;
+    margin-top: 4rem;
+
+}
+
+
+/* we-make Section background */
+#we-make {
+    background: url('../img/adult-computer-developer.svg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#divClass {
+    margin-top: 6% !important;
+}
+
+.howit-works-video {
+    background: rgba(0, 0, 0, 0) url("../assets/images/macbook-pro2.png") no-repeat scroll center 75% / 75% auto;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 4.25rem 1.5rem 2rem 5rem;
+    position: relative;
+
+    /* z-index: 10;*/
+    margin-top: 8% !important;
+}
+
+.howit-works-video iframe {}
+
+.howit-works-video iframe {
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    width: 67%;
+    padding-left: 0.1rem;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+#imglogo {
+    width: 70%;
+}
+
+#imgplay {
+    width: 40%;
+}
+
+
+
+#para_style {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    -webkit-animation: focus-in-contract-bck 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-contract-bck 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+
+.row div {
+    margin-top: 1%;
+    margin-bottom: 5%;
+
+}
+
+#para_style {
+    padding-right: 180px;
+    font-size: 1.5vw;
+}
+
+#h1_style {
+    /*margin-left: 41%;*/
+    letter-spacing: 7px;
+    font-size: 7vw;
+    font-weight: bold;
+    font-family: "TrumpGothicWestW01-Bold";
+    margin-top: 6rem;
+    -webkit-animation: text-flicker-in-glow 4s linear both;
+    animation: text-flicker-in-glow 4s linear both;
+
+    
+}
+
+#imgplay {
+    /*margin: 16% 0 0 62%;*/
+}
+
+.style_grid {}
+
+
+
+#divClass img {
+    text-align: center;
+    display: inline-block;
+    margin-left: 50%;
+}
+
+#divClass2 {
+    /*margin-top: 60%;*/
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.collapse {}
+
+#inscrire {
+    border: 0.5px solid #fff;
+    border-radius: 1px;
+}
+
+
+
+
+.row_style {
+
+    display: grid;
+    grid-template-columns: auto auto
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@media(max-width:700) {
+    .ifram_main {
+
+        width: 100%;
+        height: 580vh;
+        overflow: hidden;
+        margin-top: 4rem;
+
+    }
+    .howit-works-video {
+        display: none;
+    }
+    #para_style{
+
+        padding-right: 10px;
+        font-size: 2.5vw;
+    }
+    #divClass2{
+        margin-left: 14rem;
+    }
+    #h1_style {
+        /*margin-left: 41%;*/
+        -webkit-animation: text-flicker-in-glow 4s linear both;
+        animation: text-flicker-in-glow 4s linear both;
+        letter-spacing: 7px;
+        font-size: 10vw;
+        font-weight: bold;
+        font-family: "TrumpGothicWestW01-Bold";
+        
+    }#para_style{
+
+        padding-right: 10px;
+        font-size: 2.5vw;
+    }
+    #divClass2{
+        margin-left: 14rem;
+    }
+    #h1_style {
+        /*margin-left: 41%;*/
+        letter-spacing: 7px;
+        font-size: 10vw;
+        font-weight: bold;
+        font-family: "TrumpGothicWestW01-Bold";
+        -webkit-animation: text-flicker-in-glow 4s linear both;
+        animation: text-flicker-in-glow 4s linear both;
+    }
+}
+
+@media(max-width:850px) {
+    .howit-works-video iframe {
+        display: inline-block;
+        margin-left: auto;
+        width: 75%;
+        height: 41vh;
+        margin-top: 4rem;
+        padding: 1.9rem;
+    }
+    .howit-works-video {
+        display: none;
+    }
+    #para_style{
+
+        padding-right: 10px;
+        font-size: 2.5vw;
+    }
+    #divClass2{
+        margin-left: 14rem;
+    }
+    #h1_style {
+        /*margin-left: 41%;*/
+        letter-spacing: 7px;
+        font-size: 10vw;
+        font-weight: bold;
+        font-family: "TrumpGothicWestW01-Bold";
+        -webkit-animation: text-flicker-in-glow 4s linear both;
+        animation: text-flicker-in-glow 4s linear both;
+    }
+}
+
+@media(max-width:480px) {
+
+
+    .howit-works-video {
+        display: none;
+    }
+
+    #iframstyle {
+        height: 400px !important;
+    }
+    #para_style{
+
+        padding-right: 10px;
+        font-size: 2.5vw;
+    }
+    #divClass2{
+        margin-left: 14rem;
+    }
+    #h1_style {
+        /*margin-left: 41%;*/
+        letter-spacing: 7px;
+        font-size: 10vw;
+        font-weight: bold;
+        font-family: "TrumpGothicWestW01-Bold";
+        -webkit-animation: text-flicker-in-glow 4s linear both;
+        animation: text-flicker-in-glow 4s linear both;
+    }
+ 
+
+    .ifram_main {
+
+        width: 100%;
+        height: 580vh;
+        overflow: hidden;
+        margin-top: 4rem;
+
+    }
+
+
+  
+
+    
+
+    .main-nav ul li a {
+
+        font-size: 8px;
+        padding: 8px 35px;
+    }
+
+    
+
+
+
+@media(max-width:480px) {
+    .main-nav {
+        padding-top: 10px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .main-nav ul li a {
+        font-size: 15px;
+        padding: 8px 35px;
+        text-align: center;
+    }
+}
+
+
+
+
+.count {
+    line-height: 150px;
+    color: #0B2146;
+    font-size: 50px;
+}
+
+#shiva {
+    text-align: center;
+}
+
+.cntnum {
+    font-family: TrumpGothicWestW01-Bold;
+
+}
+
+.bor {
+    border-right-color: #0B2146;
+}
+
+.pcar {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.anne {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: TrumpGothicWestW01-Bold;
+    display: block;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    width: 145px;
+    height: 60px;
+    background-color: #0B2146;
+    margin-top: 10px;
+
+}
+
+.para {
+    font-size: 19px;
+    position: relative;
+    margin-left: 70px;
+    padding-left: 70px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.cl {
+    margin-top: 100px;
+
+}
+
+/**
+ * ----------------------------------------
+ * animation text-flicker-in-glow
+ * ----------------------------------------
+ */
+@-webkit-keyframes text-flicker-in-glow {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    10.1% {
+        opacity: 1;
+        text-shadow: none;
+    }
+
+    10.2% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    20% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    20.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    }
+
+    20.6% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    30% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    30.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    30.5% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    30.6% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    45% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    45.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    55% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    55.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    57% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    57.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+
+    60% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+
+    60.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    65% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    65.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    75% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    75.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    77% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    77.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    85% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    85.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    86% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    86.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+}
+
+
+
+
+/**
+ * ----------------------------------------
+ * animation focus-in-contract-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(300px);
+        transform: translateZ(300px);
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(12px);
+        transform: translateZ(12px);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+@keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(300px);
+        transform: translateZ(300px);
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(12px);
+        transform: translateZ(12px);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+}
+@keyframes text-flicker-in-glow {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    10.1% {
+        opacity: 1;
+        text-shadow: none;
+    }
+
+    10.2% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    20% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    20.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    }
+
+    20.6% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    30% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    30.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    30.5% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    30.6% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    45% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    45.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    55% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+
+    55.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    57% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    57.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+
+    60% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+
+    60.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    65% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    65.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    75% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    75.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    77% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    77.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    85% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    85.1% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    86% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    86.1% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+}

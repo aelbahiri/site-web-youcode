@@ -1,0 +1,289 @@
+@import url(//db.onlinewebfonts.com/c/41b76b9136355dafbe618d35a4f225b6?family=TrumpGothicWestW01-Bold);
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+.insscription {
+    background-color: #0B2146;
+    color: #fff;
+    width: 55rem;
+    padding-top: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    /* box-shadow: 0 1px 14px rgba(0,0,0,4); (mabghach ykhdam) */
+}
+
+#imagf {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.myfooter2 {
+    text-align: center;
+    background-color: #0B2146;
+    color: #fff;
+    -webkit-clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 22%, 100% 0, 100% 100%, 0% 100%);
+    /* box-shadow: 0 1px 14px rgba(0,0,0,4);  (mabghach ykhdam) */
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+
+.insimg {
+    display: flex;
+}
+
+.iconsocial {
+    width: 5%;
+    /* padding-left:90%;
+	padding-bottom:11px; */
+}
+
+.mycont2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#logop {
+    width: 15%;
+    margin: 2rem 0 2rem 0;
+}
+
+.mytouch2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lafin {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.miyimg1 {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.p {
+    margin-left: 8%;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .section {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .mycont2 {
+        padding: 27px;
+        position: relative;
+    }
+
+    /* .iconsocial{
+		margin-top:60%;
+	} */
+    .insimg {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.botins {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-width: 2px !important;
+    color: #fff;
+    font-size: 15px !important;
+    background-color:#091E40 ;
+    margin-right: 15px;
+    border-radius: 2px;
+    text-decoration: none !important;
+
+}
+
+.botins:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+/* Browser reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* we-make Section background */
+#we-make {
+    background: url('/img/adult-computer-developer.svg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-bottom: 18px;
+    text-decoration: underline;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+
+    background: white;
+    position: fixed;
+    bottom: -150px;
+    right: 18px;
+    transition: bottom 1s;
+    cursor: pointer;
+
+}
+
+.back-to-top:before {
+    content: " ";
+    display: block;
+    width: 42%;
+    padding: 21% 0;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(225deg);
+    margin-left: 26%;
+    margin-top: 35%;
+    position: absolute;
+    z-index: 20;
+}
+
+.count {
+    line-height: 150px;
+    color: #0B2146;
+    font-size: 50px;
+}
+
+#shiva {
+    text-align: center;
+    border-right-color: #061023 !important;
+    border-width: 2px !important;
+}
+
+.cntnum {
+    font-family: TrumpGothicWestW01-Bold !important;
+
+}
+
+.bor {
+    border-right-color: #0B2146;
+}
+
+.pcar {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.anne {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: TrumpGothicWestW01-Bold !important;
+    display: block;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    width: 145px;
+    height: 60px;
+    background-color: #0B2146;
+    margin-top: 10px;
+
+}
+
+.para {
+    font-size: 19px;
+    position: relative;
+    margin-left: 70px;
+    padding-left: 70px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.cl {
+    margin-top: 100px;
+
+}
+
+#bg-color {
+    background-color: #061023;
+}
+
+.icon_simplon {
+    /* Style for "Ellipse 20" */
+    width: 90px;
+    height: 90px;
+    opacity: 0.63;
+
+
+}
+
+
+
+.pad5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.containerAdd {
+    padding: 0 !important;
+}
+
+.containerAdd2 {
+    padding: 0 15px 0 0 !important;
+}
+
+.col-sm {
+    padding-right: 0.3px !important;
+    padding-left: 0.3px !important;
+}
+
+
+.myrow5 {
+    display: grid !important;
+    width: 100% !important;
+    height: 100% !important;
+    grid-template-columns: 50% 50% !important;
+}
+
+#iframstyle {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .myrow5 {
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+
+
+
+    .vidsm {
+        margin: 0.5rem 0 0 -1.5rem;
+        padding: 0 0 0 0;
+        height: 50vh !important;
+
+    }
+
+}

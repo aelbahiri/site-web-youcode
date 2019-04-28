@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+.stage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+label,
+[type="text"],
+[type="email"],
+textarea,
+[type="submit"] {
+  border-radius: 5px;
+}
+
+form {
+  border-radius: 5px;
+  background: linear-gradient(to right, #18222d, #1a2530);
+  box-shadow: inset 3px 3px 15px -5px rgba(0, 0, 0, 0.8);
+  opacity: 0.88;
+  padding: 2em;
+  display: block;
+  margin-top: 7rem;
+
+}
+
+[type="submit"] {
+  background: #1a2530;
+  display: inline-block;
+  padding: 0.3em 1em 0.5em;
+  margin-left: -2rem;
+  cursor: pointer;
+  background: linear-gradient(to right, #18222d, #1a2530);
+  box-shadow: inset 3px 3px 15px -5px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  color: #27ae60;
+  border: 1px solid rgba(41, 128, 185, 0.5);
+  font-size: 90%;
+}
+
+[type="submit"]:focus {
+  background: #3498db;
+  color: white;
+}
+
+[type="submit"]:hover {
+  background: #27ae60;
+  color: white;
+}
+
+[type="submit"]:active {
+  background: #1a2530;
+  color: white;
+}
+
+label,
+input,
+textarea {
+  transition: all 0.2s ease-out;
+}
+
+label:hover,
+input:hover,
+textarea:hover {
+  transition: all 0.2s ease-in;
+}
+
+#we-make {
+  background: url('../img/adult-computer-developer.svg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  
+}
+.mytry{
+  font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 16px;  
+}
+
+html,
+body {
+  height: 100%;
+}
+#imglogo {
+  width: 70%;
+}
+
+
+
+body {
+  font-size: 19px;
+  line-height: 1.3em;
+  /*background: linear-gradient(to left, #1d2835, #1f2b38);*/
+  background: url('../img/adult-computer-developer.svg') no-repeat;
+  background-size: cover;
+  color: #94c0dc;
+}
+
+legend {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #2980b9;
+  border-bottom: 0px !important;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-20%) translateY(50%);
+  transform: translateX(-20%) translateY(50%);
+  background: rgba(26, 37, 48, 1);
+  border: 1px solid rgba(41, 128, 185, 1);
+  padding: 0 1em 0.2em;
+  display: block;
+  cursor: pointer;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+input,
+textarea {
+  font-size: 100%;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #2980b9;
+  background: #1a2530;
+  box-shadow: inset 3px 3px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+input:focus+label,
+input.active+label,
+textarea:focus+label,
+textarea.active+label {
+  background: #2980b9;
+  -webkit-transform: translateX(-20%) translateY(-50%);
+  transform: translateX(-20%) translateY(-50%);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(41, 128, 185, 0.8);
+}
+
+[type="text"],
+[type="email"],
+textarea {
+  border: none;
+  background: inherit;
+  color: #94c0dc;
+  border: 1px solid rgba(41, 128, 185, 0.8);
+  padding: 1em 0.5em 0.5em;
+  width: 100%;
+  -webkit-filter: blur(5px);
+}
+
+[type="text"]:focus,
+[type="text"].active,
+[type="email"]:focus,
+[type="email"].active,
+textarea:focus,
+textarea.active {
+  -webkit-filter: blur(0px);
+}
+
+.control {
+  margin-bottom: 1.3em;
+}
+
+.stage {
+  max-width: 500px;
+  width: 80%;
+}
+.bg-dark {
+  background-color: #000 !important;
+
+}
+.btnins{
+    
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-width: 2px !important;
+  color: #fff;
+  font-size: 15px !important;
+  background-color:#000 ;
+  margin-right: 15px;
+  border-radius: 18px;
+  text-decoration: none !important;
+  
+}
+
+.btnins:hover{
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+  
+
+}
